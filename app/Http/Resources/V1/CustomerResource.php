@@ -19,7 +19,8 @@ class CustomerResource extends JsonResource
             'id'=> $this->id,
             'name'=> $this->name,
             'password'=> $this->password,
-            // 'createdAt'=>$this->created_at,
+            'createdAt'=>$this->created_at,
+            'updatedAt'=>$this->updated_at,
            
         ];
     }
